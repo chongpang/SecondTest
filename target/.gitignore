@@ -1,2 +1,4 @@
 SecondTest-1.0/
+test-classes/
+test-reports/
 *.war
