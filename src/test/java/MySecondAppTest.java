@@ -28,6 +28,8 @@ public class MySecondAppTest {
 
 	@Test
 	public void testCalc() throws Exception {
+		driver.get(baseUrl + "/");
+		
 		driver.findElement(By.name("num1")).clear();
 		driver.findElement(By.name("num1")).sendKeys("3");
 		driver.findElement(By.name("num2")).clear();
